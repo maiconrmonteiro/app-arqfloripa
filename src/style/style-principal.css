@@ -1,0 +1,63 @@
+
+/*Estiização da pagina principal.*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fundo.png);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo-primeiro);
+    padding: 50px;
+    max-width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho > h1 {
+    margin-bottom: 20px;
+}
+
+.botoes {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes > a > input {
+    width: 200px;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--color-botoes);
+    color: var(--fundo-primeiro);
+    font-weight: 600;
+}
+
+.botoes > a > input:hover {
+    background-color: var(--cor-hover);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background: transparent;
+}

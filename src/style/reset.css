@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700;900&display=swap');
+
+/*
+    font-family: 'Red Hat Display', sans-serif;
+    Font size (paragraph): 16px
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --color-botoes: hsl(245, 75%, 52%);
+    --cor-hover: hsl(224, 23%, 55%);
+
+    --fundo-primeiro: hsl(225, 100%, 98%);
+    --fundo-segundo: hsl(224, 23%, 55%);
+    --fundo-terceiro: hsl(223, 47%, 23%);
+}
+
+

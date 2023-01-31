@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recibo</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/style-recibo.css">
+    <link rel="stylesheet" href="../style/style-impressora.css" media="print">
+</head>
+<body>
+    <main id="campos">
+        <div class="conteiner">
+            <div>
+                <img class="logo" src="" alt="">
+            </div>
+            <div class="cabecalho">
+                <h1>Recibo</h1>
+            </div>
+            <div class="camposInputs">
+                <label class="inputs" for="valor">Valor</label>
+                <input type="number" name="campos" id="valor">
+                <label class="inputs" for="extenso">Valor Extenso (Opcional)</label>
+                <input type="text" name="campos" id="extenso">
+                <label class="inputs" for="pagador">Pagador</label>
+                <input type="text" name="campos" id="pagador">
+                <label class="inputs" for="documento">Documento</label>
+                <input type="number" name="campos" id="documento">
+            </div>
+            <div class="radios">
+                <label for="PIX">PIX</label>
+                <input type="radio" name="formaPagto" id="PIX" required>
+                <label for="dinheiro">Dinheiro</label>
+                <input type="radio" name="formaPagto" id="dinheiro">
+                <label for="cartao">Cartão</label>
+                <input type="radio" name="formaPagto" id="cartao"><br>
+            </div>
+            <div class="btn">
+
+                <button id="botao" onclick="gerarRecibo()">Gerar Recibo</button>
+               
+             </div>
+        </div>
+    </main>
+    <script src="../javascript/js-recibo.js"></script>
+</body>
+</html>
