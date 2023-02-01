@@ -43,7 +43,13 @@ function gerarRecibo() {
         <h1>Recibo</h1>
     </div>
     <br>
-        <p>Nº ${controle}</p>
+        <p>Nº Controle: ${controle}</p>
+        <p>Nome: RCC Florianópolis</p>
+        <p>Endereço: Rua Doutor Pedro Rangel, 154</p>
+        <p>Bairro: Sâo João</p>
+        <p>Cidade: Itajaí</p>
+        <p>Email: rccfloripa.diocese@gmail.com</p>
+        
         <br>
         <br>
     </div>
@@ -64,8 +70,8 @@ function gerarRecibo() {
     </div>
     <div class="assinatura">
         <p>____________________________</p>
-        <p>RCC Florianopolis</p>
-        <p>20.525.364/0001-00</p>
+        <p>Jovencir Florencio</p>
+        <p>Tesoureiro</p>
         <p>(48) 9 9632-0327</p>
     </div>
     <div class="btn">
