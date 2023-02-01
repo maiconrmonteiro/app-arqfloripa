@@ -70,3 +70,11 @@ footer {
 .logo-inicio-pequena {
     width: 20%;
 }
+
+@media only screen and (max-width: 600px) {
+    .logo-inicio-pequena {
+        width: 75%;
+    }
+    
+
+    }
