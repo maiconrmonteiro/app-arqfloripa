@@ -108,10 +108,16 @@ button:hover {
     align-items: center;   
 }
 
+
 .assinatura-caneta {
-    transform: translateY(25px);
+    width: 200px;
+    transform: translateY(70px);
 }
 
+.titulo{
+    display: flex;
+    justify-content: center;
+}
 
 
 .btn {

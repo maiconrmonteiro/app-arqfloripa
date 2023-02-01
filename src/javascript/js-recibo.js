@@ -18,6 +18,7 @@ function gerarRecibo() {
     var extenso = window.document.getElementById('extenso')
     var pagador = window.document.getElementById('pagador')
     var documento = window.document.getElementById('documento')
+    var referencia = window.document.getElementById('referente')
 
 
     var checagem = window.document.getElementsByName('formaPagto')
@@ -33,45 +34,39 @@ function gerarRecibo() {
 
 
 
-
     campos.innerHTML = (`
 
     <div class="recibo-pronto">
     <div>
         <img class="logo" src="../img/logo.png" alt="">
-    </div>
-    <div class="cabecalho">
+    <div class="titulo">
         <h1>Recibo</h1>
+    </div>
+    <br>
         <p>Nº ${controle}</p>
+        <br>
+        <br>
     </div>
     <div class="conteudo-recibo">
         <p class="conteudo">
-            Recebi(bemos) de <strong>${pagador.value.toUpperCase()}</strong> - CPF/CNPJ Nº <strong>${documento.value}</strong>, a importancia de <strong>R$ ${valor.value}</strong> (<strong>${extenso.value.toUpperCase()}</strong>) referente ao serviço de <strong>martelinho de ouro</strong> no carro <strong> ${carro.value.toUpperCase()}</strong> com placa <strong>${placa.value.toUpperCase()}</strong>
+            Recebi(bemos) de <strong>${pagador.value.toUpperCase()}</strong> - CPF/CNPJ Nº <strong>${documento.value}</strong>, a importancia de <strong>R$ ${valor.value}</strong> (<strong>${extenso.value.toUpperCase()}</strong>) referente a <strong> ${referencia.value}</strong>.
         </p><br>
-        <p class="sercicos-realizados">
-            Reparo nas peças:<br>
-            <strong>${servico1.value}</strong><br>
-            <strong>${servico2.value}</strong><br>
-            <strong>${servico3.value}</strong><br>
-            <strong>${servico4.value}</strong>
-        </p><br>
-    </div>
     <div class="forma-pagto">
         <p>Pagamento:  <strong>${formaPagto}</strong></p>
         <br>
         <br>
     </div>
     <div class="cidade">
-        <p>BIGUAÇU, ${dataAtual} </p><br><br><br><br>
+        <p>Florianópolis,   ${dataAtual} </p><br><br><br><br>
     </div>
     <div class="assinatura" >
-        <img class="assinatura-caneta" src="../img/assinatura-cadinho.png" alt="Assinatura Cadinho">
+        <img class="assinatura-caneta" src="../img/assinatura.png" alt="Assinatura Cadinho">
     </div>
     <div class="assinatura">
         <p>____________________________</p>
-        <p>Ricardo Carlos de Fraga</p>
-            <p>26.439.271/0001-31</p>
-            <p>(48) 9 8415-2125</p>
+        <p>RCC Florianopolis</p>
+        <p>20.525.364/0001-00</p>
+        <p>(48) 9 9632-0327</p>
     </div>
     <div class="btn">
   
