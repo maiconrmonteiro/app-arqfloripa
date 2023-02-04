@@ -11,8 +11,6 @@ var dataReal = new Date();
     var botao = window.document.getElementById('botao');
     
 
-
-function gerarRecibo() {
     var campos = window.document.getElementById('campos')
     var valor = window.document.getElementById('valor')
     var extenso = window.document.getElementById('extenso')
@@ -20,6 +18,7 @@ function gerarRecibo() {
     var documento = window.document.getElementById('documento')
     var referencia = window.document.getElementById('referente')
 
+function gerarRecibo() {
 
     var checagem = window.document.getElementsByName('formaPagto')
     var formaPagto = ''
@@ -31,6 +30,8 @@ function gerarRecibo() {
     } else if(checagem[2].checked) {
         formaPagto = ' Por cartão'
     }
+
+
 
 
 
@@ -91,3 +92,4 @@ function gerarRecibo() {
         logo.style.display = 'none'
 
 }
+
