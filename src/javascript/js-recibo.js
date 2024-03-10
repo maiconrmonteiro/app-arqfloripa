@@ -71,9 +71,9 @@ function gerarRecibo() {
     </div>
     <div class="assinatura">
         <p>____________________________</p>
-        <p>Jovencir Florencio</p>
+        <p>Ismael Otto</p>
         <p>Tesoureiro</p>
-        <p>(48) 9 9632-0327</p>
+        <p>(48) 9 99645-2429</p>
     </div>
     <div class="btn">
   
