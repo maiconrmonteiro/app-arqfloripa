@@ -17,6 +17,7 @@ var dataReal = new Date();
     var pagador = window.document.getElementById('pagador')
     var documento = window.document.getElementById('documento')
     var referencia = window.document.getElementById('referente')
+    var datas = window.document.getElementById('datas')
 
 function gerarRecibo() {
 
@@ -64,7 +65,7 @@ function gerarRecibo() {
         <br>
     </div>
     <div class="cidade">
-        <p>Florianópolis,   ${dataAtual} </p><br><br><br><br>
+        <p>Florianópolis,   ${datas.value} </p><br><br><br><br>
     </div>
     <div class="assinatura" >
         <img class="assinatura-caneta" src="../img/assinatura.png" alt="Assinatura Cadinho">
@@ -73,7 +74,7 @@ function gerarRecibo() {
         <p>____________________________</p>
         <p>Ismael Otto</p>
         <p>Tesoureiro</p>
-        <p>(48) 9 99645-2429</p>
+        <p>(48) 9 9645-2429</p>
     </div>
     <div class="btn">
   
